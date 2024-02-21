@@ -207,14 +207,3 @@ export const projects = [
     link: "https://github.com/adrianhajdin/project_ai_summarizer",
   },
 ];
-
-const x = 2;
-let y = 4;
-
-function update(arg) {
-  return Math.random() + y * arg;
-}
-
-y = 2;
-
-const result = update(x);

@@ -7,7 +7,7 @@ import Navbar from "./components/Navbar";
 
 function App() {
   return (
-    <main className="bg-gray-700 text-white min-h-screen">
+    <main className="w-full h-screen flex flex-col bg-gray-700 text-white">
       <Router>
         <Navbar />
         <Routes>

@@ -1,4 +1,3 @@
-import React from "react";
 import { skills, experiences } from "../constants/index.ts";
 import {
   VerticalTimeline,
