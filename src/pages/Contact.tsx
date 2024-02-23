@@ -60,9 +60,9 @@ const Contact = () => {
 
         <form
           onSubmit={handleSubmit}
-          className="w-full flex flex-col mt-4 lg:mt-8 bg-slate-500 border-2 border-slate-300 rounded-md"
+          className="w-full flex flex-col mt-4 lg:mt-8 bg-slate-500 border-2 border-slate-300 rounded-md shadow-2xl"
         >
-          <div className="flex flex-col gap-5 p-5 lg:p-8">
+          <div className="flex flex-col gap-5 p-5 lg:p-12">
             <div>
               <label htmlFor="name" className="font-semibold">
                 Name
@@ -72,7 +72,7 @@ const Contact = () => {
                 value={form.name}
                 onChange={(e) => setForm({ ...form, name: e.target.value })}
                 placeholder="John Doe"
-                className="input mt-1"
+                className="input mt-2"
                 required
               />
             </div>
@@ -86,7 +86,7 @@ const Contact = () => {
                 value={form.email}
                 onChange={(e) => setForm({ ...form, email: e.target.value })}
                 placeholder="john.doe@example.com"
-                className="input mt-1"
+                className="input mt-2"
                 required
               />
             </div>
@@ -99,7 +99,7 @@ const Contact = () => {
                 value={form.message}
                 onChange={(e) => setForm({ ...form, message: e.target.value })}
                 placeholder="Hi! I'd like to connect."
-                className="input resize-none h-36 mt-1"
+                className="input resize-none h-36 mt-2"
                 required
               />
             </div>
@@ -107,7 +107,7 @@ const Contact = () => {
             <Button
               type="submit"
               disabled={isLoading}
-              className="flex gap-2 mt-4 mb-5 md:mb-8 md:mt-8"
+              className="flex gap-2 mt-4 mb-5 ml:mb-7 ml:mt-8"
               size="icon"
             >
               {isLoading ? (

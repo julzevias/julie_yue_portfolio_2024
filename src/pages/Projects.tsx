@@ -1,9 +1,15 @@
 const Projects = () => {
   return (
-    <>
-      <div className="flex justify-content align-items">Header</div>
-      <div>projects</div>
-    </>
+    <section className="flex flex-col items-center">
+      <h1 className="text-4xl">
+        My <span className="font-semibold">Projects</span>
+      </h1>
+
+      <div>
+        I've contributed to client projects and developed personal projects.
+        Feel free to explore the applications and the codebase!
+      </div>
+    </section>
   );
 };
 

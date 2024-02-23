@@ -1,14 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Atma:wght@300;400;500;600;700&family=League+Spartan:wght@100..900&display=swap");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 :root {
-  /* @apply bg-primary; */
+  font-family: "League Spartan", "Oxygen", "Roboto", sans-serif;
+}
+
+html {
+  overflow-y: scroll;
 }
 
 @layer utilities {
   .content-container {
-    @apply px-10 sm:px-52 lg:px-80;
+    @apply px-10 lg:px-36 mt-8 lg:mt-16;
   }
 
   .title-text {

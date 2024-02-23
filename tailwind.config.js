@@ -19,7 +19,7 @@ export default {
           hover: "#66cbcf",
           border: "#65aebf",
           text: "#58bacf",
-          dark: "67abc0",
+          dark: "#67abc0",
           ["dark-hover"]: "#7fabc4",
         },
         tertiary: {
