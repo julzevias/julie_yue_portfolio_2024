@@ -1,4 +1,4 @@
-import { skills, experiences } from "../constants/index.ts";
+import { skills, experiences } from "@/constants/index.ts";
 import {
   VerticalTimeline,
   VerticalTimelineElement,

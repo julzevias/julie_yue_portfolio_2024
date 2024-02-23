@@ -6,17 +6,34 @@ export default {
   theme: {
     extend: {
       colors: {
+        primary: {
+          DEFAULT: colors.gray[700],
+          hover: colors.gray[800],
+          border: colors.gray[600],
+          text: colors.gray[500],
+          dark: colors.gray[900],
+          ["accent"]: "#453396",
+        },
         secondary: {
-          DEFAULT: colors.neutral[200],
-          hover: colors.neutral[300],
-          border: colors.neutral[400],
-          text: colors.neutral[500],
-          dark: colors.neutral[800],
-          ["dark-hover"]: colors.neutral[900],
+          DEFAULT: "#a4e0e2",
+          hover: "#66cbcf",
+          border: "#65aebf",
+          text: "#58bacf",
+          dark: "67abc0",
+          ["dark-hover"]: "#7fabc4",
+        },
+        tertiary: {
+          DEFAULT: "#ca47cb",
+          hover: "#d965e1",
+          border: "#a829b1",
+          text: "#ae2fb4",
+          dark: "#90319d",
+          ["dark-hover"]: "#843199",
         },
       },
     },
   },
   plugins: [],
   darkMode: "media",
+  mode: "jit",
 };
