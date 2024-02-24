@@ -21,7 +21,7 @@ const About = () => {
 
       <div className="flex flex-col gap-3 lg:gap-6">
         <h2 className="text-3xl">Skills</h2>
-        <div className="flex flex-wrap gap-12 lg:gap-18">
+        <div className="flex flex-wrap gap-12 lg:gap-18 justify-center lg:justify-start">
           {skills.map((skill) => (
             <div
               key={skill.name}

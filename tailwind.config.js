@@ -15,14 +15,6 @@ export default {
           ["accent"]: "#453396",
         },
         secondary: {
-          DEFAULT: "#a4e0e2",
-          hover: "#66cbcf",
-          border: "#65aebf",
-          text: "#58bacf",
-          dark: "#67abc0",
-          ["dark-hover"]: "#7fabc4",
-        },
-        tertiary: {
           DEFAULT: "#ca47cb",
           hover: "#d965e1",
           border: "#a829b1",
