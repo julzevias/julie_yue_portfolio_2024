@@ -37,7 +37,7 @@ const About = () => {
             <img
               src={skill.imageUrl}
               alt={skill.name}
-              className="h-5 w-5 object-contain transition-all duration-400 transform hover:scale-110"
+              className="h-10 w-10 object-contain "
             ></img>
           </div>
         ))}
@@ -46,28 +46,25 @@ const About = () => {
       <div className="flex flex-col gap-3 lg:gap-6">
         <h2 className="subtitle-text">Work Experience</h2>
         <div>
-          <VerticalTimeline>
+          <VerticalTimeline lineColor=" rgb(148 163 184)">
             {experiences.map((experience) => (
               <VerticalTimelineElement
-                className="vertical-timeline-element--work"
                 key={experience.company_name}
                 contentStyle={{
                   color: "#FFF",
-                  background: " rgb(100 116 139)",
+                  background: "rgb(100 116 139)",
                   borderStyle: "solid",
-                  borderBottomColor: "rgb(148 163 184)",
                 }}
                 contentArrowStyle={{
-                  borderRight: "7px solid rgb(148 163 184)",
+                  borderRight: "7px solid rgb(100 116 139)",
                 }}
                 date={experience.date}
-                iconStyle={{
-                  background: "rgb(33, 150, 243)",
-                  color: "#fff",
-                }}
                 icon={
                   <i className="fas fa-briefcase">
-                    <img src={experience.icon} className="rounded-full"></img>
+                    <img
+                      src={experience.icon}
+                      className="rounded-full object-contain"
+                    ></img>
                   </i>
                 }
               >

@@ -108,7 +108,10 @@ const Projects = () => {
                     className="flex gap-2"
                     target="_blank"
                   >
-                    <img src={github} className="h-5 w-5"></img>
+                    <img
+                      src={github}
+                      className="h-5 w-5 filter invert brightness-max"
+                    ></img>
                     View Code
                   </a>
                 </div>
