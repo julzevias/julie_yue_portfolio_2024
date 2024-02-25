@@ -2,6 +2,7 @@ import About from "@/pages/About";
 import Projects from "@/pages/Projects";
 import Contact from "@/pages/Contact";
 import Navbar from "@/components/Navbar";
+import Footer from "./pages/Footer";
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <About />
       <Projects />
       <Contact />
+      <Footer />
     </main>
   );
 }
