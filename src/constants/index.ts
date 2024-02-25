@@ -167,7 +167,7 @@ export const professionalProjects = [
     projectName: "Storefront Development",
     image: LTShopify,
     description:
-      "As the lead developer for a Shopify storefront project, I crafted a shopping experience by migrating product data from a previous CMS, customizing look and feel of the website, and designing storefront features through mockups with Figma. I collaborated closely with the co-CEO, providing regular updates and overseeing the project's technical aspects.",
+      "As the lead developer for a Shopify storefront project, I crafted a shopping experience by migrating product data from a previous CMS, customizing look and feel of the website, and designing storefront features through mockups with Figma. I collaborated closely with stakeholders, providing regular updates and overseeing the project's technical aspects.",
     technologies: ["Shopify", "Liquid", "HTML", "CSS", "JavaScript", "Figma"],
     liveSite: "This site will be released soon!",
   },
@@ -186,7 +186,7 @@ export const personalProjects = [
   {
     name: "BlackJack",
     description:
-      "Constructed a game that allows multiple players to engage in rounds of BlackJack in person",
+      "Constructed a game that allows multiple players to engage in rounds of BlackJack in person.",
     image: blackjack,
     technologies: ["React", "TypeScript", "HTML", "Bootstrap"],
     github: "https://github.com/jw-yue/blackjack",

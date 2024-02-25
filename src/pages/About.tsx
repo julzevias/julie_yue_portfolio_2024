@@ -49,29 +49,45 @@ const About = () => {
           <VerticalTimeline>
             {experiences.map((experience) => (
               <VerticalTimelineElement
-                key={experience.company_name}
                 className="vertical-timeline-element--work"
-                contentStyle={{ background: "#fff", color: "#000" }}
+                key={experience.company_name}
+                contentStyle={{
+                  color: "#FFF",
+                  background: " rgb(100 116 139)",
+                  borderStyle: "solid",
+                  borderBottomColor: "rgb(148 163 184)",
+                }}
                 contentArrowStyle={{
-                  borderRight: "7px solid  rgb(33, 150, 243)",
+                  borderRight: "7px solid rgb(148 163 184)",
                 }}
                 date={experience.date}
-                iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
+                iconStyle={{
+                  background: "rgb(33, 150, 243)",
+                  color: "#fff",
+                }}
                 icon={
                   <i className="fas fa-briefcase">
-                    <img src={experience.icon}></img>
+                    <img src={experience.icon} className="rounded-full"></img>
                   </i>
                 }
               >
-                <h3 className="vertical-timeline-element-title">
-                  {experience.company_name}
-                </h3>
-                <h4 className="vertical-timeline-element-subtitle">
-                  {experience.title}
-                </h4>
-                <ul className="list-disc">
-                  {experience.points.map((point) => (
-                    <li key={point}>{point}</li>
+                <div>
+                  <h3 className=" text-xl font-poppins font-semibold">
+                    {experience.title}
+                  </h3>
+                  <p
+                    className="text-black-500 font-medium text-base"
+                    style={{ margin: 0 }}
+                  >
+                    {experience.company_name}
+                  </p>
+                </div>
+
+                <ul className="my-5 list-disc ml-5 space-y-2">
+                  {experience.points.map((point, index) => (
+                    <li key={`experience-point-${index}`} className="pl-1">
+                      {point}
+                    </li>
                   ))}
                 </ul>
               </VerticalTimelineElement>
