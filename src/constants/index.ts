@@ -13,6 +13,11 @@ import {
 } from "@/assets/images/index.ts";
 import {
   contact,
+  ember,
+  shopify,
+  wordpress,
+  figma,
+  bootstrap,
   css,
   express,
   git,
@@ -32,63 +37,13 @@ import {
 
 export const skills = [
   {
-    imageUrl: css,
-    name: "CSS",
-    type: "Frontend",
-  },
-  {
-    imageUrl: express,
-    name: "Express",
-    type: "Backend",
-  },
-  {
-    imageUrl: git,
-    name: "Git",
-    type: "Version Control",
-  },
-  {
-    imageUrl: github,
-    name: "GitHub",
-    type: "Version Control",
-  },
-  {
-    imageUrl: html,
-    name: "HTML",
-    type: "Frontend",
-  },
-  {
-    imageUrl: javascript,
-    name: "JavaScript",
-    type: "Frontend",
-  },
-  {
-    imageUrl: mui,
-    name: "Material-UI",
-    type: "Frontend",
-  },
-  {
-    imageUrl: nextjs,
-    name: "Next.js",
-    type: "Frontend",
-  },
-  {
-    imageUrl: nodejs,
-    name: "Node.js",
-    type: "Backend",
-  },
-  {
     imageUrl: react,
     name: "React",
     type: "Frontend",
   },
   {
-    imageUrl: redux,
-    name: "Redux",
-    type: "State Management",
-  },
-  {
-    imageUrl: sass,
-    name: "Sass",
+    imageUrl: typescript,
+    name: "TypeScript",
     type: "Frontend",
   },
   {
@@ -97,9 +52,79 @@ export const skills = [
     type: "Frontend",
   },
   {
-    imageUrl: typescript,
-    name: "TypeScript",
+    imageUrl: git,
+    name: "Git",
+    type: "Version Control",
+  },
+  {
+    imageUrl: ember,
+    name: "Ember",
     type: "Frontend",
+  },
+  {
+    imageUrl: javascript,
+    name: "JavaScript",
+    type: "Frontend",
+  },
+  {
+    imageUrl: nextjs,
+    name: "Next.js",
+    type: "Frontend",
+  },
+  {
+    imageUrl: bootstrap,
+    name: "Bootstrap",
+    type: "Frontend",
+  },
+  {
+    imageUrl: express,
+    name: "Express",
+    type: "Backend",
+  },
+  {
+    imageUrl: nodejs,
+    name: "Node.js",
+    type: "Backend",
+  },
+  {
+    imageUrl: html,
+    name: "HTML",
+    type: "Frontend",
+  },
+  {
+    imageUrl: css,
+    name: "CSS",
+    type: "Frontend",
+  },
+  {
+    imageUrl: figma,
+    name: "Figma",
+    type: "Frontend",
+  },
+  {
+    imageUrl: redux,
+    name: "Redux",
+    type: "State Management",
+  },
+  {
+    imageUrl: mui,
+    name: "Material-UI",
+    type: "Frontend",
+  },
+  {
+    imageUrl: sass,
+    name: "Sass",
+    type: "Frontend",
+  },
+  {
+    imageUrl: wordpress,
+    name: "WordPress",
+    type: "CMS",
+  },
+  {
+    imageUrl: shopify,
+    name: "Shopify",
+    type: "CMS",
   },
 ];
 

@@ -1,3 +1,8 @@
+import ember from "./ember.png";
+import shopify from "./shopify.svg";
+import wordpress from "./wordpress.png";
+import figma from "./figma.png";
+import bootstrap from "./bootstrap.svg";
 import css from "./css.svg";
 import express from "./express.svg";
 import git from "./git.svg";
@@ -25,6 +30,11 @@ import soundon from "./soundon.png";
 import soundoff from "./soundoff.png";
 
 export {
+  ember,
+  shopify,
+  wordpress,
+  figma,
+  bootstrap,
   css,
   express,
   git,
