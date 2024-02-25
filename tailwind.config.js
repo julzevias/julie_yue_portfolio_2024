@@ -21,7 +21,6 @@ export default {
           text: "#ae2fb4",
           dark: "#90319d",
           ["accent"]: "#d350dd",
-          ["light"]: colors.pink[200],
         },
       },
     },

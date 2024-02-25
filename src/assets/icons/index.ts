@@ -2,6 +2,7 @@ import css from "./css.svg";
 import express from "./express.svg";
 import git from "./git.svg";
 import github from "./github.svg";
+import githubInverted from "./github-inverted.svg";
 import html from "./html.svg";
 import javascript from "./javascript.svg";
 import mongodb from "./mongodb.svg";
@@ -18,6 +19,8 @@ import linkedin from "./linkedin.svg";
 import twitter from "./twitter.svg";
 import arrow from "./arrow.svg";
 import contact from "./contact.svg";
+import instagram from "./instagram.png";
+import resume from "./resume.png";
 import soundon from "./soundon.png";
 import soundoff from "./soundoff.png";
 
@@ -26,6 +29,7 @@ export {
   express,
   git,
   github,
+  githubInverted,
   html,
   javascript,
   mongodb,
@@ -42,6 +46,8 @@ export {
   twitter,
   arrow,
   contact,
+  instagram,
+  resume,
   soundon,
   soundoff,
 };

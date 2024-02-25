@@ -1,5 +1,5 @@
 import { personalProjects, professionalProjects } from "@/constants/index.ts";
-import { github } from "@/assets/icons/index.ts";
+import { githubInverted } from "@/assets/icons/index.ts";
 
 const Projects = () => {
   return (
@@ -24,7 +24,7 @@ const Projects = () => {
         {professionalProjects.map((project) => (
           <div
             key={project.projectName}
-            className="flex justify-around rounded-b-lg rounded-tl-lg border border-slate-400 bg-slate-600 shadow p-3 lg:p-4 min-h-0 gap-2"
+            className="teardrop-border flex justify-around border border-slate-400 bg-slate-600 shadow p-3 lg:p-4 min-h-0 gap-2"
           >
             <div className="flex flex-col justify-between gap-2 lg:gap-4">
               <div className="flex flex-col gap-2">
@@ -70,7 +70,7 @@ const Projects = () => {
           {personalProjects.map((project) => (
             <div
               key={project.name}
-              className="flex flex-col space-y-4 border border-slate-500 rounded-b-lg rounded-tl-lg shadow p-3 lg:p-4"
+              className="teardrop-border flex flex-col space-y-4 border border-slate-500 shadow p-3 lg:p-4"
             >
               <h3 className="font-semibold text-xl text-center">
                 {project.name}
@@ -108,11 +108,8 @@ const Projects = () => {
                     className="flex gap-2"
                     target="_blank"
                   >
-                    <img
-                      src={github}
-                      className="h-5 w-5 filter invert brightness-max"
-                    ></img>
-                    View Code
+                    <img src={githubInverted} className="h-5 w-5 filter"></img>
+                    <p className="text-with-hover">View Code</p>
                   </a>
                 </div>
               </div>

@@ -24,10 +24,27 @@ html {
     @apply text-xl md:text-3xl font-normal sm:leading-snug;
   }
 
-  .technology-bg {
-    @apply bg-slate-500 rounded-b-lg rounded-tl-lg whitespace-nowrap pr-0.5 pl-0.5 m-1 text-sm md:text-base;
+  .text-with-hover {
+    @apply text-slate-300 hover:border-slate-300 hover:text-white transition-all duration-200;
   }
+
+  .icon-with-hover {
+    @apply teardrop-border hover:ring-1 hover:ring-slate-500 transition-all duration-200;
+  }
+
+  .teardrop-border {
+    @apply rounded-b-lg rounded-tl-lg;
+  }
+
+  .technology-bg {
+    @apply bg-slate-500 teardrop-border whitespace-nowrap pr-0.5 pl-0.5 m-1 text-sm md:text-base;
+  }
+
   .input {
     @apply text-gray-900 py-3 px-4 block w-full outline-none rounded-lg text-sm focus:ring-1 focus:ring-secondary disabled:opacity-50 disabled:pointer-events-none dark:bg-slate-900 dark:border-gray-700 dark:text-gray-400 dark:focus:ring-gray-600;
+  }
+
+  .nav-link {
+    @apply list-none  border-b-2 border-transparent text-with-hover;
   }
 }

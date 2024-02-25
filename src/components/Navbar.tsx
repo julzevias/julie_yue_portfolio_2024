@@ -13,7 +13,7 @@ const Navbar = () => {
           duration={1000}
           className="cursor-pointer"
         >
-          About
+          <li className="nav-link">About</li>
         </Link>
         <Link
           activeClass="active"
@@ -22,7 +22,7 @@ const Navbar = () => {
           smooth={true}
           offset={-100}
           duration={1000}
-          className="cursor-pointer"
+          className="nav-link cursor-pointer"
         >
           Projects
         </Link>
@@ -34,7 +34,7 @@ const Navbar = () => {
           smooth={true}
           offset={-100}
           duration={1000}
-          className="cursor-pointer"
+          className="nav-link cursor-pointer"
         >
           Contact
         </Link>

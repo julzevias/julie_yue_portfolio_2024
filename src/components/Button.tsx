@@ -6,23 +6,13 @@ const buttonStyles = cva(["", ":transition-colors"], {
   variants: {
     variant: {
       default: [
-        "text-primary",
         "bg-secondary",
         "hover:text-white",
-        "transition-colors duration-50 hover:bg-primary-hover",
+        "transition-colors duration-200 hover:bg-fuchsia-300",
       ],
-      ghost: ["hover:bg-gray-100"],
     },
     size: {
       default: ["rounded-lg"],
-      icon: [
-        "rounded-lg",
-        "w-100",
-        "flex",
-        "items-center",
-        "justify-center",
-        "p-2.5",
-      ],
     },
   },
   defaultVariants: {
