@@ -1,7 +1,27 @@
-import hero from "./hero.jpg";
-import logo from "./logo.svg";
-import growthAccelerationPartners from "./meta.png";
-import assetMark from "./shopify.png";
-import lumenTactical from "./starbucks.png";
+// import logo from "./logo.svg";
+import growthAccelerationPartners from "./growth-acceleration-partners.jpg";
+import assetMark from "./assetmark.png";
+import longhornTactical from "./longhorn_tactical.png";
+import nitecore from "./nitecore.png";
 
-export { hero, logo, growthAccelerationPartners, assetMark, lumenTactical };
+import colorGenerator from "./color-generator.png";
+import weatherApp from "./weather-app.png";
+import dogApp from "./dog-app.png";
+import personalPortfolioV1 from "./personal-portfolio-v1.png";
+import blackjack from "./blackjack.png";
+import imageUploader from "./image-uploader.png";
+import LTShopify from "./lt-shopify.png";
+
+export {
+  growthAccelerationPartners,
+  assetMark,
+  longhornTactical,
+  nitecore,
+  colorGenerator,
+  weatherApp,
+  dogApp,
+  personalPortfolioV1,
+  blackjack,
+  imageUploader,
+  LTShopify,
+};

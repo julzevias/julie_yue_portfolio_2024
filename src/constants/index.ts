@@ -1,13 +1,19 @@
 import {
   growthAccelerationPartners,
   assetMark,
-  lumenTactical,
-} from "../assets/images/index.ts";
+  longhornTactical,
+  nitecore,
+  colorGenerator,
+  weatherApp,
+  dogApp,
+  personalPortfolioV1,
+  blackjack,
+  imageUploader,
+  LTShopify,
+} from "@/assets/images/index.ts";
 import {
-  car,
   contact,
   css,
-  estate,
   express,
   git,
   github,
@@ -17,16 +23,12 @@ import {
   mui,
   nextjs,
   nodejs,
-  pricewise,
   react,
   redux,
   sass,
-  snapgram,
-  summiz,
   tailwind,
-  threads,
   typescript,
-} from "../assets/icons/index.ts";
+} from "@/assets/icons/index.ts";
 
 export const skills = [
   {
@@ -105,7 +107,7 @@ export const experiences = [
   {
     title: "E-commerce Frontend Developer",
     company_name: "Lumen Tactical",
-    icon: lumenTactical,
+    icon: nitecore,
     iconBg: "#accbe1",
     date: "Oct 2023 - current",
     points: [
@@ -143,67 +145,87 @@ export const socialLinks = [
   {
     name: "Contact",
     iconUrl: contact,
-    link: "/contact",
+    email: "julie.yue@gmail.com",
+    phone: "512-412-1653",
   },
   {
     name: "GitHub",
     iconUrl: github,
-    link: "https://github.com/YourGitHubUsername",
+    link: "https://github.com/jw-yue",
   },
   {
     name: "LinkedIn",
     iconUrl: linkedin,
-    link: "https://www.linkedin.com/in/YourLinkedInUsername",
+    link: "https://www.linkedin.com/in/j-yue/",
   },
 ];
 
-export const projects = [
+export const professionalProjects = [
   {
-    iconUrl: pricewise,
-    theme: "btn-back-red",
-    name: "Amazon Price Tracker",
+    client: "Nitecore Store (Lumen Tactical)",
+    logos: [nitecore, longhornTactical],
+    projectName: "Storefront Development",
+    image: LTShopify,
     description:
-      "Developed a web application that tracks and notifies users of price changes for products on Amazon, helping users find the best deals.",
-    link: "https://github.com/adrianhajdin/pricewise",
+      "As the lead developer for a Shopify storefront project, I crafted a shopping experience by migrating product data from a previous CMS, customizing look and feel of the website, and designing storefront features through mockups with Figma. I collaborated closely with the co-CEO, providing regular updates and overseeing the project's technical aspects.",
+    technologies: ["Shopify", "Liquid", "HTML", "CSS", "JavaScript", "Figma"],
+    liveSite: "This site will be released soon!",
+  },
+];
+
+export const personalProjects = [
+  {
+    name: "Image Uploader",
+    description:
+      "Created an application that enables users to upload images from their local device or a URL, showcase the image within the app, or download the image.",
+    image: imageUploader,
+    technologies: ["React", "TypeScript", "Express", "Node", "REST APIs"],
+    github: "https://github.com/jw-yue/image_uploader",
+    liveSite: "",
   },
   {
-    iconUrl: threads,
-    theme: "btn-back-green",
-    name: "Full Stack Threads Clone",
+    name: "BlackJack",
     description:
-      'Created a full-stack replica of the popular discussion platform "Threads," enabling users to post and engage in threaded conversations.',
-    link: "https://github.com/adrianhajdin/threads",
+      "Constructed a game that allows multiple players to engage in rounds of BlackJack in person",
+    image: blackjack,
+    technologies: ["React", "TypeScript", "HTML", "Bootstrap"],
+    github: "https://github.com/jw-yue/blackjack",
+    liveSite: "https://blackjack.julzcreations.dev/",
   },
   {
-    iconUrl: car,
-    theme: "btn-back-blue",
-    name: "Car Finding App",
+    name: "Personal Portfolio v1",
     description:
-      "Designed and built a mobile app for finding and comparing cars on the market, streamlining the car-buying process.",
-    link: "https://github.com/adrianhajdin/project_next13_car_showcase",
+      "Crafted and built a personal portfolio that highlights past projects.",
+    image: personalPortfolioV1,
+    technologies: ["React", "JavaScript", "HTML", "CSS"],
+    github: "https://github.com/jw-yue/julie-yue-portfolio-v1",
+    liveSite: "",
   },
   {
-    iconUrl: snapgram,
-    theme: "btn-back-pink",
-    name: "Full Stack Instagram Clone",
+    name: "Weather Application",
     description:
-      "Built a complete clone of Instagram, allowing users to share photos and connect with friends in a familiar social media environment.",
-    link: "https://github.com/adrianhajdin/social_media_app",
+      "Created an application that enables users to retrieve weather information for a specific city.",
+    image: weatherApp,
+    technologies: ["React", "JavaScript", "REST APIs", "HTML", "CSS"],
+    github: "https://github.com/jw-yue/weather-app",
+    liveSite: "",
   },
   {
-    iconUrl: estate,
-    theme: "btn-back-black",
-    name: "Real-Estate Application",
+    name: "Dog App",
     description:
-      "Developed a web application for real estate listings, facilitating property searches and connecting buyers with sellers.",
-    link: "https://github.com/adrianhajdin/projects_realestate",
+      "Created a CRUD application that enables users to efficiently search, add, edit, and delete dog records.",
+    image: dogApp,
+    technologies: ["React", "HTML", "CSS", "JavaScript"],
+    github: "https://github.com/jw-yue/dog-app",
+    liveSite: "",
   },
   {
-    iconUrl: summiz,
-    theme: "btn-back-yellow",
-    name: "AI Summarizer Application",
+    name: "Color Generator",
     description:
-      "App that leverages AI to automatically generate concise & informative summaries from lengthy text content, or blogs.",
-    link: "https://github.com/adrianhajdin/project_ai_summarizer",
+      "Developed an application capable of producing a spectrum of colors based on a provided specific color.",
+    image: colorGenerator,
+    technologies: ["React", "HTML", "CSS", "JavaScript"],
+    github: "https://github.com/jw-yue/task-tracker",
+    liveSite: "",
   },
 ];

@@ -7,39 +7,44 @@ import "react-vertical-timeline-component/style.min.css";
 
 const About = () => {
   return (
-    <section className="content-container relative flex flex-col gap-12 lg:gap-16 mb-8 lg:mb-16">
+    <section
+      id="about"
+      className="content-container relative flex flex-col gap-12 lg:gap-16 mb-8 lg:mb-16"
+    >
       <div className="flex flex-col gap-3">
         <h1 className="title-text">
-          Hey! I'm <span className="font-semibold">Julie</span>
+          Hey! I'm{" "}
+          <span className="font-semibold text-secondary-accent">Julie</span>
         </h1>
 
-        <p className="text-lg sm:text-xl md:text-2xl">
-          I love building user-friendly and scalable applications that bridge
-          the gap between design and code!
+        <p className="text-lg font-light md:text-xl">
+          I'm passionate about crafting user-friendly and scalable applications
+          that seamlessly blend design and code. I hold a firm belief that a
+          top-notch product should be both well-designed and well-developed, and
+          aim to create applications that meet these standards. With my
+          experience in collaborating with small businesses, I've developed
+          products that effectively achieve business objectives.
         </p>
       </div>
 
-      <div className="flex flex-col gap-3 lg:gap-6">
-        <h2 className="text-3xl">Skills</h2>
-        <div className="flex flex-wrap gap-12 lg:gap-18 justify-center lg:justify-start">
-          {skills.map((skill) => (
-            <div
-              key={skill.name}
-              title={skill.name}
-              className="flex flex-col items-center rounded-b-lg rounded-tl-lg border-2 border-secondary bg-slate-200 shadow p-3 lg:p-4"
-            >
-              <img
-                src={skill.imageUrl}
-                alt={skill.name}
-                className="h-10 w-10 lg:h-16 lg:w-16 object-contain transition-all duration-400 transform hover:scale-110"
-              ></img>
-            </div>
-          ))}
-        </div>
+      <div className="flex justify-evenly gap-2">
+        {skills.map((skill) => (
+          <div
+            key={skill.name}
+            title={skill.name}
+            className="flex flex-col items-center rounded-b-lg rounded-tl-lg bg-slate-200 shadow p-0.5 sm:p-1"
+          >
+            <img
+              src={skill.imageUrl}
+              alt={skill.name}
+              className="h-5 w-5 object-contain transition-all duration-400 transform hover:scale-110"
+            ></img>
+          </div>
+        ))}
       </div>
 
       <div className="flex flex-col gap-3 lg:gap-6">
-        <h2 className="text-3xl">Work Experience</h2>
+        <h2 className="subtitle-text">Work Experience</h2>
         <div>
           <VerticalTimeline>
             {experiences.map((experience) => (
