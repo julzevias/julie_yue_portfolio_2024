@@ -42,7 +42,7 @@ const Projects = () => {
                   {project.technologies.map((technology) => {
                     return (
                       <div key={technology} className="technology-bg">
-                        {technology}
+                        <h6 className="p-0.5">{technology}</h6>
                       </div>
                     );
                   })}

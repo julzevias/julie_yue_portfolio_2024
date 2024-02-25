@@ -1,28 +1,17 @@
-import { animateScroll, Link } from "react-scroll";
+import { Link } from "react-scroll";
 
 const Navbar = () => {
   return (
-    <header className="flex justify-between text-xl  bg-slate-600 shadow-md sm:px-16 px-8 py-5 pt-6 gap-10 gap-sm-5">
-      <Link
-        activeClass="active"
-        to="home"
-        spy={true}
-        smooth={true}
-        offset={50}
-        duration={500}
-        onClick={() => animateScroll.scrollToTop()}
-      >
-        Home
-      </Link>
-
+    <header className="fixed top-0 left-0 w-full z-50 flex text-xl bg-slate-600 shadow-md sm:px-16 px-8 py-5 pt-6 gap-10 gap-sm-5">
       <nav className="flex gap-10 lg:gap-20">
         <Link
           activeClass="active"
           to="about"
           spy={true}
           smooth={true}
-          offset={50}
-          duration={500}
+          offset={-100}
+          duration={1000}
+          className="cursor-pointer"
         >
           About
         </Link>
@@ -31,8 +20,9 @@ const Navbar = () => {
           to="projects"
           spy={true}
           smooth={true}
-          offset={50}
-          duration={500}
+          offset={-100}
+          duration={1000}
+          className="cursor-pointer"
         >
           Projects
         </Link>
@@ -42,8 +32,9 @@ const Navbar = () => {
           to="contact"
           spy={true}
           smooth={true}
-          offset={50}
-          duration={500}
+          offset={-100}
+          duration={1000}
+          className="cursor-pointer"
         >
           Contact
         </Link>
