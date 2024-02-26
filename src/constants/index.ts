@@ -209,57 +209,57 @@ export const professionalProjects = [
 
 export const personalProjects = [
   {
-    name: "Image Uploader",
+    name: "BlackJack - Local Multiplayer Game",
     description:
-      "Created an application that enables users to upload images from their local device or a URL, showcase the image within the app, or download the image.",
-    image: imageUploader,
-    technologies: ["React", "TypeScript", "Express", "Node", "REST APIs"],
-    github: "https://github.com/jw-yue/image_uploader",
-    liveSite: "",
-  },
-  {
-    name: "BlackJack",
-    description:
-      "Constructed a game that allows multiple players to engage in rounds of BlackJack in person.",
+      "Need an activity to do with your friends in person? How about a quick game of blackjack? This app supports up to 7 players.",
     image: blackjack,
     technologies: ["React", "TypeScript", "HTML", "Bootstrap"],
     github: "https://github.com/jw-yue/blackjack",
     liveSite: "https://blackjack.julzcreations.dev/",
   },
   {
-    name: "Personal Portfolio v1",
+    name: "Image Uploader",
     description:
-      "Crafted and built a personal portfolio that highlights past projects.",
-    image: personalPortfolioV1,
-    technologies: ["React", "JavaScript", "HTML", "CSS"],
-    github: "https://github.com/jw-yue/julie-yue-portfolio-v1",
+      "Users can upload images from their local device or a URL, showcase the image within the app, or download the image.",
+    image: imageUploader,
+    technologies: ["React", "TypeScript", "Express", "Node", "REST APIs"],
+    github: "https://github.com/jw-yue/image_uploader",
+    liveSite: "",
+  },
+  {
+    name: "Color Generator",
+    description:
+      "This app produces a spectrum of colors based on a provided specific color.",
+    image: colorGenerator,
+    technologies: ["React", "HTML", "CSS", "JavaScript"],
+    github: "https://github.com/jw-yue/task-tracker",
     liveSite: "",
   },
   {
     name: "Weather Application",
     description:
-      "Created an application that enables users to retrieve weather information for a specific city.",
+      "Cute app that enables users to retrieve weather information for a specific city.",
     image: weatherApp,
     technologies: ["React", "JavaScript", "REST APIs", "HTML", "CSS"],
     github: "https://github.com/jw-yue/weather-app",
     liveSite: "",
   },
   {
-    name: "Dog App",
+    name: "Personal Portfolio v1",
     description:
-      "Created a CRUD application that enables users to efficiently search, add, edit, and delete dog records.",
-    image: dogApp,
-    technologies: ["React", "HTML", "CSS", "JavaScript"],
-    github: "https://github.com/jw-yue/dog-app",
+      "My first personal portfolio that highlights my past projects.",
+    image: personalPortfolioV1,
+    technologies: ["React", "JavaScript", "HTML", "CSS"],
+    github: "https://github.com/jw-yue/julie-yue-portfolio-v1",
     liveSite: "",
   },
   {
-    name: "Color Generator",
+    name: "Dog App",
     description:
-      "Developed an application capable of producing a spectrum of colors based on a provided specific color.",
-    image: colorGenerator,
+      "Created an application that enables users to efficiently search, add, edit, and delete dog records.",
+    image: dogApp,
     technologies: ["React", "HTML", "CSS", "JavaScript"],
-    github: "https://github.com/jw-yue/task-tracker",
+    github: "https://github.com/jw-yue/dog-app",
     liveSite: "",
   },
 ];
