@@ -4,16 +4,22 @@
 @tailwind utilities;
 
 :root {
+  @apply leading-relaxed;
   font-family: "League Spartan", "Oxygen", "Roboto", sans-serif;
 }
 
 html {
+  @apply text-base lg:text-lg;
   overflow-y: scroll;
 }
 
 @layer utilities {
   .content-container {
     @apply px-10 lg:px-36 mt-8 lg:mt-16;
+  }
+
+  .subsection-container {
+    @apply mt-4;
   }
 
   .title-text {
@@ -29,7 +35,7 @@ html {
   }
 
   .icon-with-hover {
-    @apply teardrop-border hover:ring-1 hover:ring-slate-500 transition-all duration-200;
+    @apply border-b-2 border-transparent hover:border-current hover:border-slate-300 transition-all duration-200;
   }
 
   .teardrop-border {

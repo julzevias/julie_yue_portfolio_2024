@@ -8,19 +8,15 @@ const Projects = () => {
       className="content-container relative flex flex-col gap-12 lg:gap-16 mb-8 lg:mb-16 auto-cols-auto auto-rows-auto"
     >
       <div className="flex flex-col gap-3">
-        <h1 className="title-text">
-          My <span className="font-semibold ">Projects</span>
-        </h1>
+        {/* <h1 className="title-text">Projects</h1> */}
 
-        <p className="text-lg font-light md:text-xl">
+        {/* <p className="text-lg font-light md:text-xl">
           I've developed applications for clients and built apps in my free
           time. Feel free to explore the applications and codebase!
-        </p>
+        </p> */}
       </div>
 
       <div className="flex flex-col gap-3 lg:gap-6">
-        <h2 className="subtitle-text">Client Project</h2>
-
         {professionalProjects.map((project) => (
           <div
             key={project.projectName}
@@ -60,9 +56,9 @@ const Projects = () => {
         ))}
       </div>
 
-      <div className="flex flex-col gap-3 lg:gap-6">
+      <div className="subsection-container flex flex-col gap-3 lg:gap-6">
         <div>
-          <h2 className="subtitle-text">Personal Projects</h2>
+          {/* <h2 className="subtitle-text">Personal Projects</h2> */}
           <h3>Click on an image to see the live site!</h3>
         </div>
 
@@ -109,7 +105,7 @@ const Projects = () => {
                     target="_blank"
                   >
                     <img src={githubInverted} className="h-5 w-5 filter"></img>
-                    <p className="text-with-hover">View Code</p>
+                    <p className="text-sm text-with-hover">View Code</p>
                   </a>
                 </div>
               </div>

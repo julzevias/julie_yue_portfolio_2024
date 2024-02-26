@@ -26,6 +26,7 @@ import arrow from "./arrow.svg";
 import contact from "./contact.svg";
 import instagram from "./instagram.png";
 import resume from "./resume.png";
+import linkedinWhite from "./linkedin-white.svg";
 import soundon from "./soundon.png";
 import soundoff from "./soundoff.png";
 
@@ -58,6 +59,7 @@ export {
   contact,
   instagram,
   resume,
+  linkedinWhite,
   soundon,
   soundoff,
 };

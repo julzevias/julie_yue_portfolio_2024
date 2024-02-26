@@ -166,6 +166,15 @@ export const experiences = [
   },
 ];
 
+export const educations = [
+  {
+    school: "University of Texas at Dallas",
+    degree: "Bachelor of Science in Computer Science",
+    location: "Richardson, TX",
+    dates: "Aug. 2017 - May 2021",
+  },
+];
+
 export const socialLinks = [
   {
     name: "Contact",

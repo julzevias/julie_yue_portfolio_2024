@@ -1,4 +1,4 @@
-// import logo from "./logo.svg";
+import profilePic from "./profile-pic.jpg";
 import growthAccelerationPartners from "./growth-acceleration-partners.jpg";
 import assetMark from "./assetmark.png";
 import longhornTactical from "./longhorn_tactical.png";
@@ -13,6 +13,7 @@ import imageUploader from "./image-uploader.png";
 import LTShopify from "./lt-shopify.png";
 
 export {
+  profilePic,
   growthAccelerationPartners,
   assetMark,
   longhornTactical,
