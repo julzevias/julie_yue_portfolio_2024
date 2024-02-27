@@ -211,7 +211,7 @@ export const personalProjects = [
   {
     name: "BlackJack - Local Multiplayer Game",
     description:
-      "Need an activity to do with your friends in person? How about a quick game of blackjack? This app supports up to 7 players.",
+      "Need an activity to do with your friends in person? Play a few quick games of blackjack! This app supports up to 7 players.",
     image: blackjack,
     technologies: ["React", "TypeScript", "HTML", "Bootstrap"],
     github: "https://github.com/jw-yue/blackjack",
@@ -224,16 +224,16 @@ export const personalProjects = [
     image: imageUploader,
     technologies: ["React", "TypeScript", "Express", "Node", "REST APIs"],
     github: "https://github.com/jw-yue/image_uploader",
-    liveSite: "",
+    liveSite: "https://image-uploader.julzcreations.dev/",
   },
   {
     name: "Color Generator",
     description:
       "This app produces a spectrum of colors based on a provided specific color.",
     image: colorGenerator,
-    technologies: ["React", "HTML", "CSS", "JavaScript"],
+    technologies: ["React", "JavaScript", "HTML", "CSS"],
     github: "https://github.com/jw-yue/task-tracker",
-    liveSite: "",
+    liveSite: "https://jw-yue.github.io/color-generator/",
   },
   {
     name: "Weather Application",
@@ -242,7 +242,7 @@ export const personalProjects = [
     image: weatherApp,
     technologies: ["React", "JavaScript", "REST APIs", "HTML", "CSS"],
     github: "https://github.com/jw-yue/weather-app",
-    liveSite: "",
+    liveSite: "https://jw-yue.github.io/weather-app/",
   },
   {
     name: "Personal Portfolio v1",
@@ -251,15 +251,15 @@ export const personalProjects = [
     image: personalPortfolioV1,
     technologies: ["React", "JavaScript", "HTML", "CSS"],
     github: "https://github.com/jw-yue/julie-yue-portfolio-v1",
-    liveSite: "",
+    liveSite: "https://jw-yue.github.io/julie-yue-portfolio-v1/",
   },
   {
     name: "Dog App",
     description:
       "Created an application that enables users to efficiently search, add, edit, and delete dog records.",
     image: dogApp,
-    technologies: ["React", "HTML", "CSS", "JavaScript"],
+    technologies: ["React", "JavaScript", "HTML", "CSS"],
     github: "https://github.com/jw-yue/dog-app",
-    liveSite: "",
+    liveSite: "https://jw-yue.github.io/dog-app/",
   },
 ];
