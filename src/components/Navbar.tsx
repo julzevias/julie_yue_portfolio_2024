@@ -10,7 +10,7 @@ const Navbar = () => {
           spy={true}
           smooth={true}
           offset={-100}
-          duration={1000}
+          duration={2000}
           className="cursor-pointer"
         >
           <li className="nav-link">Start</li>
@@ -22,7 +22,7 @@ const Navbar = () => {
           spy={true}
           smooth={true}
           offset={-130}
-          duration={1000}
+          duration={1200}
           className="nav-link cursor-pointer"
         >
           Career
@@ -34,7 +34,7 @@ const Navbar = () => {
           spy={true}
           smooth={true}
           offset={-140}
-          duration={1000}
+          duration={1200}
           className="nav-link cursor-pointer"
         >
           Education
@@ -45,8 +45,8 @@ const Navbar = () => {
           to="projects"
           spy={true}
           smooth={true}
-          offset={-100}
-          duration={1000}
+          offset={-70}
+          duration={1200}
           className="nav-link cursor-pointer"
         >
           Projects
@@ -58,7 +58,7 @@ const Navbar = () => {
           spy={true}
           smooth={true}
           offset={-550}
-          duration={1000}
+          duration={1200}
           className="nav-link cursor-pointer"
         >
           Contact
