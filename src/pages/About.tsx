@@ -5,7 +5,7 @@ import {
   instagram,
 } from "@/assets/icons/index.ts";
 import { profilePic } from "@/assets/images/index.ts";
-import julieResume from "@/assets/julieResume.pdf";
+import julieResume from "@/assets/Julie_Yue_Resume.pdf";
 import {
   VerticalTimeline,
   VerticalTimelineElement,
