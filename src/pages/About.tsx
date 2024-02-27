@@ -15,7 +15,7 @@ import "react-vertical-timeline-component/style.min.css";
 const About = () => {
   return (
     <section
-      id="about"
+      id="start"
       className="content-container relative flex flex-col gap-12 lg:gap-16 pt-16"
     >
       <div className="flex flex-col gap-3">
@@ -23,7 +23,7 @@ const About = () => {
           <h1 className="flex title-text whitespace-nowrap">
             Hey! I'm
             <span className="font-semibold text-secondary-accent ml-1.5 lg:ml-2">
-              Julie
+              Julie Yue
             </span>
             <img
               src={profilePic}
@@ -76,6 +76,7 @@ const About = () => {
       </div>
 
       <div className="subsection-container flex flex-col gap-3 lg:gap-6">
+        {/* <h1 className="title-text">Skills</h1> */}
         <div className="flex justify-evenly gap-2">
           {skills.map((skill) => (
             <div
@@ -93,7 +94,11 @@ const About = () => {
         </div>
       </div>
 
-      <div className="subsection-container flex flex-col gap-3 lg:gap-6">
+      <div
+        id="career"
+        className="subsection-container flex flex-col gap-3 lg:gap-6"
+      >
+        {/* <h1 className="title-text">Work Experience</h1> */}
         <div>
           <VerticalTimeline lineColor=" rgb(148 163 184)">
             {experiences.map((experience) => (
@@ -146,7 +151,7 @@ const About = () => {
       <div className="subsection-container flex flex-col gap-3 lg:gap-6">
         <hr className="m-0 p-0 border-slate-400"></hr>
 
-        <div className="flex flex-col gap-3 mx-5 lg:mx-10">
+        <div id="education" className="flex flex-col gap-3 mx-5 lg:mx-10">
           {educations.map((education) => (
             <div key={education.school} className={education.school}>
               <div className="flex justify-between">

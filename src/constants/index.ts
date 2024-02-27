@@ -136,9 +136,7 @@ export const experiences = [
     iconBg: "#accbe1",
     date: "Oct 2023 - current",
     points: [
-      "Developing custom storefront in Shopify with Liquid, HTML, CSS, and JavaScript.",
-      "Migrating hundreds of thousands of entities from Volusion to Shopify.",
-      "Set up automated CI/CD pipeline, enabling development code to be updated to GitHub and deployed to Shopify.",
+      "Developing a new Shopify storefront by transferring product data from an old CMS and applying a modern theme.",
     ],
   },
   {
@@ -148,8 +146,8 @@ export const experiences = [
     iconBg: "#fbc3bc",
     date: "May 2022 - Oct 2023",
     points: [
-      "Implemented user-friendly features for 300+ private labels and enterprises, covering aspects such as profile data editing, capital market assumptions management for advisors, and intelligent report generation.",
-      "Developed a secure 2-step authentication via text message across 5 web applications, increasing overall security.",
+      "Developed usability and security enhancements for five web applications, benefiting over 300 private labels and six enterprise clients.",
+      "Introduced a two-factor authentication mechanism via SMS verification, significantly boosting app security.",
     ],
   },
   {
@@ -161,7 +159,6 @@ export const experiences = [
     points: [
       "Developed real-time staffing cost display tool for development staff across locations, leading to successful client engagements.",
       "Contributed to employee profile dashboard in React by implementing UI features and connecting APIs.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
     ],
   },
 ];
@@ -201,7 +198,7 @@ export const professionalProjects = [
     projectName: "Storefront Development",
     image: LTShopify,
     description:
-      "As the lead developer for a Shopify storefront project, I crafted a shopping experience by migrating product data from a previous CMS, customizing look and feel of the website, and designing storefront features through mockups with Figma. I collaborated closely with stakeholders, providing regular updates and overseeing the project's technical aspects.",
+      "As the lead developer for a Shopify storefront project, I crafted a shopping experience by migrating product data from a previous CMS, customizing look and feel of the website, and designing storefront features from Figma mockups. I collaborated closely with stakeholders, providing regular updates and overseeing the project's technical aspects.",
     technologies: ["Shopify", "Liquid", "HTML", "CSS", "JavaScript", "Figma"],
     liveSite: "This site will be released soon!",
   },

@@ -6,15 +6,40 @@ const Navbar = () => {
       <nav className="flex gap-10 lg:gap-20">
         <Link
           activeClass="active"
-          to="about"
+          to="start"
           spy={true}
           smooth={true}
           offset={-100}
           duration={1000}
           className="cursor-pointer"
         >
-          <li className="nav-link">Home</li>
+          <li className="nav-link">Start</li>
         </Link>
+
+        <Link
+          activeClass="active"
+          to="career"
+          spy={true}
+          smooth={true}
+          offset={-130}
+          duration={1000}
+          className="nav-link cursor-pointer"
+        >
+          Career
+        </Link>
+
+        <Link
+          activeClass="active"
+          to="education"
+          spy={true}
+          smooth={true}
+          offset={-140}
+          duration={1000}
+          className="nav-link cursor-pointer"
+        >
+          Education
+        </Link>
+
         <Link
           activeClass="active"
           to="projects"

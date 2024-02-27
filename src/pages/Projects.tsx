@@ -8,8 +8,6 @@ const Projects = () => {
       className="content-container relative flex flex-col gap-12 lg:gap-16 mb-8 lg:mb-16 auto-cols-auto auto-rows-auto"
     >
       <div className="flex flex-col gap-3">
-        {/* <h1 className="title-text">Projects</h1> */}
-
         {/* <p className="text-lg font-light md:text-xl">
           I've developed applications for clients and built apps in my free
           time. Feel free to explore the applications and codebase!
