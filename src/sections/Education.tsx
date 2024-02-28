@@ -2,7 +2,7 @@ import { educations } from "@/constants/index.ts";
 
 const Education = () => {
   return (
-    <div className="subsection-container flex flex-col gap-3 lg:gap-6">
+    <div className="flex flex-col gap-3 lg:gap-6">
       <hr className="m-0 p-0 border-slate-400"></hr>
 
       <div id="education" className="flex flex-col gap-3 mx-5 lg:mx-10">

@@ -23,6 +23,9 @@ export default {
           ["accent"]: "#d350dd",
         },
       },
+      fontFamily: {
+        arbutus: ["Arbutus Slab", "serif"],
+      },
     },
   },
   plugins: [],

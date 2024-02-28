@@ -2,7 +2,7 @@ import { skills } from "@/constants/index.ts";
 
 const Skills = () => {
   return (
-    <div className="subsection-container flex flex-col gap-3 lg:gap-6">
+    <div className="flex flex-col gap-3 lg:gap-6">
       {/* <h1 className="title-text">Skills</h1> */}
       <div className="flex justify-evenly gap-2">
         {skills.map((skill) => (

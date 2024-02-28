@@ -1,11 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Atma:wght@300;400;500;600;700&family=League+Spartan:wght@100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Arbutus+Slab&family=Atma:wght@300;400;500;600;700&family=League+Spartan:wght@100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 :root {
   @apply leading-relaxed;
-  font-family: "League Spartan", "Oxygen", "Roboto", sans-serif;
+  font-family: "Arbutus", "League Spartan", "Oxygen", "Roboto", sans-serif;
 }
 
 html {
@@ -15,11 +16,7 @@ html {
 
 @layer utilities {
   .content-container {
-    @apply px-10 lg:px-36 mt-8 lg:mt-16;
-  }
-
-  .subsection-container {
-    @apply mt-4;
+    @apply px-10 lg:px-48 mt-8 lg:mt-16;
   }
 
   .title-text {
@@ -27,7 +24,7 @@ html {
   }
 
   .subtitle-text {
-    @apply text-xl md:text-3xl font-normal sm:leading-snug;
+    @apply text-xl md:text-2xl font-normal sm:leading-snug;
   }
 
   .text-with-hover {

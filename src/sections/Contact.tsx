@@ -56,13 +56,13 @@ const Contact = () => {
   return (
     <section
       id="contact"
-      className="content-container relative flex items-center flex-col"
+      className="content-container relative flex items-center gap-7 md:items-start flex-col py-8 lg:py-16"
     >
       <h1 className="subtitle-text">Get In Touch</h1>
 
       <form
         onSubmit={handleSubmit}
-        className="teardrop-border w-fit sm:w-full flex flex-col items-center sm:flex-row mt-4 lg:mt-8 bg-slate-500 gap-2 lg:gap-5 p-5 lg:p-10"
+        className="teardrop-border w-fit sm:w-full flex flex-col items-center sm:flex-row bg-slate-500 gap-2 lg:gap-5 p-5 lg:p-10"
       >
         <div className="flex-grow-0 flex-shrink">
           <label htmlFor="name" className="font-semibold">

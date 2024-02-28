@@ -17,7 +17,7 @@ const Navbar = () => {
           spy={true}
           smooth={true}
           offset={-100}
-          duration={2000}
+          duration={1400}
           className="cursor-pointer"
         >
           <li className="nav-link">About</li>
@@ -49,14 +49,14 @@ const Navbar = () => {
 
         <Link
           activeClass="active"
-          to="projects"
+          to="work"
           spy={true}
           smooth={true}
-          offset={-70}
+          offset={-60}
           duration={1200}
           className="nav-link cursor-pointer"
         >
-          Projects
+          Work
         </Link>
 
         <Link
@@ -64,7 +64,7 @@ const Navbar = () => {
           to="contact"
           spy={true}
           smooth={true}
-          offset={-550}
+          offset={-60}
           duration={1200}
           className="nav-link cursor-pointer"
         >

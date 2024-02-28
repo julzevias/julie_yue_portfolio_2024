@@ -7,7 +7,7 @@ import "react-vertical-timeline-component/style.min.css";
 
 const WorkTimeline = () => {
   return (
-    <div>
+    <div id="career" className="flex flex-col gap-3 lg:gap-6">
       {/* <h1 className="title-text">Work Experience</h1> */}
       <div>
         <VerticalTimeline lineColor=" rgb(148 163 184)">
