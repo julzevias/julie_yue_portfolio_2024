@@ -54,7 +54,10 @@ const Contact = () => {
   };
 
   return (
-    <section id="contact" className="content-container relative flex flex-col">
+    <section
+      id="contact"
+      className="content-container relative flex items-center flex-col"
+    >
       <h1 className="subtitle-text">Get In Touch</h1>
 
       <form

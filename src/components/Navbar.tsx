@@ -2,7 +2,7 @@ import { Link } from "react-scroll";
 
 const Navbar = () => {
   return (
-    <header className="fixed top-0 left-0 w-full z-50 fle shadow-md sm:px-16 px-8 py-4 pt-6 gap-10 gap-sm-5 transition-all duration-500 hover:bg-slate-600 border-b border-gray-600">
+    <header className="fixed top-0 left-0 w-full z-50 fle shadow-md sm:px-16 px-8 py-4 pt-6 gap-10 gap-sm-5 transition-all duration-500 hover:bg-slate-600 border-b border-gray-600 bg-slate-600 lg:bg-transparent">
       <nav className="flex gap-10 lg:gap-20">
         <Link
           activeClass="active"

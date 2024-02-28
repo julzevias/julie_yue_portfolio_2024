@@ -1,6 +1,6 @@
 import { personalProjects, professionalProjects } from "@/constants/index.ts";
 import { githubInverted } from "@/assets/icons/index.ts";
-import { ArrowRight } from "lucide-react";
+// import { ArrowRight } from "lucide-react";
 
 const Projects = () => {
   return (
