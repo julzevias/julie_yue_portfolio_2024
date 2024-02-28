@@ -17,7 +17,7 @@ const About = () => {
           <h1 className="flex title-text whitespace-nowrap">
             Hey! I'm
             <span className="font-semibold text-secondary-accent ml-1.5 lg:ml-2">
-              Julie Yue
+              Julie
             </span>
             <img
               src={profilePic}
@@ -30,7 +30,7 @@ const About = () => {
               target="_blank"
               className="p-1.5 icon-with-hover"
             >
-              <img src={githubInverted} className="h-7 w-7 object-contain" />
+              <img src={githubInverted} className="h-6 w-6 object-contain" />
             </a>
 
             <a
@@ -38,7 +38,7 @@ const About = () => {
               target="_blank"
               className="p-1.5 icon-with-hover"
             >
-              <img src={linkedinWhite} className="h-7 w-7 object-contain" />
+              <img src={linkedinWhite} className="h-6 w-6 object-contain" />
             </a>
 
             <a
@@ -46,7 +46,7 @@ const About = () => {
               target="_blank"
               className="p-1.5 icon-with-hover"
             >
-              <img src={instagram} className="h-7 w-7 object-contain" />
+              <img src={instagram} className="h-6 w-6 object-contain" />
             </a>
           </div>
         </div>

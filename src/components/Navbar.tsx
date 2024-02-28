@@ -1,8 +1,15 @@
 import { Link } from "react-scroll";
+import logo from "/julz-logo.png";
 
 const Navbar = () => {
   return (
-    <header className="fixed top-0 left-0 w-full z-50 fle shadow-md sm:px-16 px-8 py-4 pt-6 gap-10 gap-sm-5 transition-all duration-500 hover:bg-slate-600 border-b border-gray-600 bg-slate-600 lg:bg-transparent">
+    <header className="flex justify-between items-center fixed top-0 left-0 w-full z-50 fle shadow-md sm:px-16 px-8 py-4 pt-6 gap-10 gap-sm-5 transition-all duration-500 hover:bg-slate-600 border-b border-gray-600 bg-slate-600 lg:bg-transparent">
+      <div className="flex items-center">
+        <img
+          src={logo}
+          className="border-2 border-white object-cover opacity-50 hover:opacity-100 teardrop-border w-8 h-8 lg:w-10 lg:h-10"
+        ></img>
+      </div>
       <nav className="flex gap-10 lg:gap-20">
         <Link
           activeClass="active"
