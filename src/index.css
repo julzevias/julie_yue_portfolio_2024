@@ -31,15 +31,15 @@ html {
   }
 
   .text-with-hover {
-    @apply text-slate-300 hover:border-slate-300 hover:text-white transition-all duration-200;
+    @apply text-slate-300 hover:border-slate-300 hover:text-white transition-all duration-500;
   }
 
   .icon-with-hover {
-    @apply border-b-2 border-transparent hover:border-current hover:border-slate-300 transition-all duration-200;
+    @apply border-b-2 border-transparent hover:border-current hover:border-slate-300 transition-all duration-500;
   }
 
   .teardrop-border {
-    @apply rounded-b-lg rounded-tl-lg;
+    @apply rounded-b-lg rounded-tl-lg hover:border-slate-400 transition-all duration-500;
   }
 
   .technology-bg {

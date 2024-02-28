@@ -1,8 +1,8 @@
-import About from "@/pages/About";
-import Projects from "@/pages/Projects";
-import Contact from "@/pages/Contact";
+import About from "@/sections/About";
+import Projects from "@/sections/Projects";
+import Contact from "@/sections/Contact";
 import Navbar from "@/components/Navbar";
-import Footer from "./pages/Footer";
+import Footer from "./sections/Footer";
 
 function App() {
   return (

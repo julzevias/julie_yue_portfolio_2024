@@ -55,7 +55,7 @@ const Contact = () => {
 
   return (
     <section id="contact" className="content-container relative flex flex-col">
-      <h1 className="title-text">Get In Touch</h1>
+      <h1 className="subtitle-text">Get In Touch</h1>
 
       <form
         onSubmit={handleSubmit}

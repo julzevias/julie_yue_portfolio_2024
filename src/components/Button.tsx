@@ -8,7 +8,7 @@ const buttonStyles = cva(["", ":transition-colors"], {
       default: [
         "bg-secondary",
         "hover:text-white",
-        "transition-colors duration-200 hover:bg-fuchsia-300",
+        "transition-colors duration-500 hover:bg-fuchsia-300",
       ],
     },
     size: {

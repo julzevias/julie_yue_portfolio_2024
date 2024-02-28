@@ -1,5 +1,6 @@
 import { personalProjects, professionalProjects } from "@/constants/index.ts";
 import { githubInverted } from "@/assets/icons/index.ts";
+import { ArrowRight } from "lucide-react";
 
 const Projects = () => {
   return (
@@ -18,7 +19,7 @@ const Projects = () => {
         {professionalProjects.map((project) => (
           <div
             key={project.projectName}
-            className="teardrop-border flex justify-around border border-slate-400 bg-slate-600 shadow p-3 lg:p-4 min-h-0 gap-2"
+            className="teardrop-border flex justify-around border border-slate-400 bg-slate-600 icon-with-hover shadow p-3 lg:p-4 min-h-0 gap-2"
           >
             <div className="flex flex-col justify-between gap-2 lg:gap-4">
               <div className="flex flex-col gap-2">
@@ -61,7 +62,7 @@ const Projects = () => {
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 lg:gap-16 xl:grid-cols-3 auto-cols-auto grid-flow-row">
-          {personalProjects.map((project) => (
+          {personalProjects.slice(0, 3).map((project) => (
             <div
               key={project.name}
               className="teardrop-border flex flex-col space-y-4 border border-slate-500 shadow p-3 lg:p-4"
@@ -80,7 +81,7 @@ const Projects = () => {
                   <img
                     src={project.image}
                     alt={project.name}
-                    className="h-64 w-64 object-cover rounded-lg shadow-lg hover:shadow-2xl transition-all duration-400 transform hover:scale-105"
+                    className="h-64 w-64 object-cover rounded-lg shadow-lg hover:shadow-2xl transition-all duration-500 transform hover:scale-105"
                   ></img>
                 </a>
               </div>
@@ -111,6 +112,12 @@ const Projects = () => {
           ))}
         </div>
       </div>
+      {/* {personalProjects.length > 3 && (
+        <button className="flex justify-end text-lg gap-2">
+          View More Projects
+          <ArrowRight />
+        </button>
+      )} */}
     </section>
   );
 };
