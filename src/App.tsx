@@ -3,6 +3,7 @@ import Projects from "@/sections/Projects";
 import Contact from "@/sections/Contact";
 import Navbar from "@/components/Navbar";
 import Footer from "./sections/Footer";
+import WorkTimeline from "./sections/WorkTimeline";
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <Navbar />
       <About />
       <Projects />
+      <WorkTimeline />
       <Contact />
       <Footer />
     </main>

@@ -5,7 +5,7 @@ import { githubInverted } from "@/assets/icons/index.ts";
 const Projects = () => {
   return (
     <section
-      id="work"
+      id="projects"
       className="content-container flex flex-col gap-7 py-8 lg:py-24 auto-cols-auto auto-rows-auto"
     >
       {/* <div className="flex flex-col gap-3">
@@ -14,7 +14,7 @@ const Projects = () => {
           time. Feel free to explore the applications and codebase!
         </p>
       </div> */}
-      <h2 className="subtitle-text">My Work</h2>
+      <h2 className="subtitle-text">My Projects</h2>
 
       <div className="flex flex-col gap-24 lg:ap-48">
         <div className="flex flex-col gap-3 lg:gap-6">

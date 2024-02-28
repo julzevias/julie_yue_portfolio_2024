@@ -25,18 +25,6 @@ const Navbar = () => {
 
         {/* <Link
           activeClass="active"
-          to="career"
-          spy={true}
-          smooth={true}
-          offset={-130}
-          duration={1200}
-          className="nav-link cursor-pointer"
-        >
-          Career
-        </Link>
-
-        <Link
-          activeClass="active"
           to="education"
           spy={true}
           smooth={true}
@@ -49,14 +37,25 @@ const Navbar = () => {
 
         <Link
           activeClass="active"
-          to="work"
+          to="projects"
           spy={true}
           smooth={true}
           offset={-60}
           duration={1200}
           className="nav-link cursor-pointer"
         >
-          Work
+          Projects
+        </Link>
+        <Link
+          activeClass="active"
+          to="career"
+          spy={true}
+          smooth={true}
+          offset={-80}
+          duration={1200}
+          className="nav-link cursor-pointer"
+        >
+          Career
         </Link>
 
         <Link
