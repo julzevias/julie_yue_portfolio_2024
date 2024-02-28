@@ -7,7 +7,7 @@ const Navbar = () => {
       <div className="flex items-center">
         <img
           src={logo}
-          className="border-2 border-white object-cover opacity-50 hover:opacity-100 teardrop-border w-8 h-8 lg:w-10 lg:h-10"
+          className="border-2 border-white object-cover opacity-80 hover:opacity-100 teardrop-border w-8 h-8 lg:w-10 lg:h-10"
         ></img>
       </div>
       <nav className="flex gap-10 lg:gap-20">
