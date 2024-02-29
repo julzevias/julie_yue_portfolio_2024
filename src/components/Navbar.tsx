@@ -43,7 +43,7 @@ const Navbar = () => {
           to="projects"
           spy={true}
           smooth={true}
-          offset={-60}
+          offset={-10}
           duration={1200}
           className="nav-link cursor-pointer"
         >
@@ -54,7 +54,7 @@ const Navbar = () => {
           to="career"
           spy={true}
           smooth={true}
-          offset={-80}
+          offset={-10}
           duration={1200}
           className="nav-link cursor-pointer"
         >
