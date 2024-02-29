@@ -198,7 +198,7 @@ export const professionalProjects = [
     projectName: "Storefront Development",
     image: LTShopify,
     description:
-      "As the lead developer for a Shopify storefront project, I crafted a shopping experience by migrating product data from a previous CMS, customizing look and feel of the website, and designing storefront features from Figma mockups. I collaborated closely with stakeholders, providing regular updates and overseeing the project's technical aspects.",
+      "As the primary developer for a Shopify storefront project, I crafted a shopping experience by migrating product data from a previous CMS, customizing look and feel of the website, and designing storefront features from Figma mockups. I collaborated closely with stakeholders, providing regular updates and overseeing the project's technical aspects.",
     technologies: ["Shopify", "Liquid", "HTML", "CSS", "JavaScript", "Figma"],
     liveSite: "This site will be released soon!",
   },
