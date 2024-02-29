@@ -44,6 +44,7 @@ const Contact = () => {
       )
       .then(() => {
         toast.success("Message sent!");
+        setForm({ name: "", email: "", message: "" });
       })
       .catch((e) => {
         toast.error("Failed to send message: " + e.text);
