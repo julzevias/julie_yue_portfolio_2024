@@ -10,7 +10,7 @@ const Navbar = () => {
           className="border-2 border-white object-cover opacity-80 hover:opacity-100 teardrop-border w-8 h-8 lg:w-10 lg:h-10"
         ></img>
         <span className="font-semibold text-xl lg:text-2xl text-secondary-accent hover:text-fuchsia-300 hover:transition-all duration-500 whitespace-nowrap">
-          Julie Yue
+          <span className="font-arbutus">J</span>ulie Yue
         </span>
       </div>
       <nav className="flex gap-10 lg:gap-20">
