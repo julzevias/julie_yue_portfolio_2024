@@ -1,10 +1,8 @@
-import {
-  githubInverted,
-  linkedinWhite,
-  instagram,
-} from "@/assets/icons/index.ts";
-import { profilePic } from "@/assets/images/index.ts";
-import julieResume from "@/assets/Julie_Yue_Resume.pdf";
+import githubInverted from "/icons/github-inverted.svg";
+import linkedinWhite from "/icons/linkedin-white.svg";
+import instagram from "/icons/instagram.png";
+import profilePic from "/images/profile-pic.jpg";
+import julieResume from "/Julie_Yue_Resume.pdf";
 
 const About = () => {
   return (

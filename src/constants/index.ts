@@ -1,128 +1,91 @@
-import {
-  growthAccelerationPartners,
-  assetMark,
-  longhornTactical,
-  nitecore,
-  colorGenerator,
-  weatherApp,
-  dogApp,
-  personalPortfolioV1,
-  blackjack,
-  imageUploader,
-  LTShopify,
-} from "@/assets/images/index.ts";
-import {
-  contact,
-  ember,
-  shopify,
-  wordpress,
-  figma,
-  bootstrap,
-  css,
-  express,
-  git,
-  github,
-  html,
-  javascript,
-  linkedin,
-  mui,
-  nextjs,
-  nodejs,
-  react,
-  redux,
-  sass,
-  tailwind,
-  typescript,
-} from "@/assets/icons/index.ts";
-
 export const skills = [
   {
-    imageUrl: react,
+    imageUrl: "/icons/react.svg",
     name: "React",
     type: "Frontend",
   },
   {
-    imageUrl: typescript,
+    imageUrl: "/icons/typescript.svg",
     name: "TypeScript",
     type: "Frontend",
   },
   {
-    imageUrl: tailwind,
+    imageUrl: "/icons/tailwind.svg",
     name: "Tailwind CSS",
     type: "Frontend",
   },
   {
-    imageUrl: git,
+    imageUrl: "/icons/git.svg",
     name: "Git",
     type: "Version Control",
   },
   {
-    imageUrl: ember,
+    imageUrl: "/icons/ember.png",
     name: "Ember",
     type: "Frontend",
   },
   {
-    imageUrl: javascript,
+    imageUrl: "/icons/javascript.svg",
     name: "JavaScript",
     type: "Frontend",
   },
   {
-    imageUrl: nextjs,
+    imageUrl: "/icons/nextjs.svg",
     name: "Next.js",
     type: "Frontend",
   },
   {
-    imageUrl: bootstrap,
+    imageUrl: "/icons/bootstrap.svg",
     name: "Bootstrap",
     type: "Frontend",
   },
   {
-    imageUrl: express,
+    imageUrl: "icons/express.svg",
     name: "Express",
     type: "Backend",
   },
   {
-    imageUrl: nodejs,
+    imageUrl: "icons/nodejs.svg",
     name: "Node.js",
     type: "Backend",
   },
   {
-    imageUrl: html,
+    imageUrl: "icons/html.svg",
     name: "HTML",
     type: "Frontend",
   },
   {
-    imageUrl: css,
+    imageUrl: "/icons/css.svg",
     name: "CSS",
     type: "Frontend",
   },
   {
-    imageUrl: figma,
+    imageUrl: "icons/figma.png",
     name: "Figma",
     type: "Frontend",
   },
   {
-    imageUrl: redux,
+    imageUrl: "icons/redux.svg",
     name: "Redux",
     type: "State Management",
   },
   {
-    imageUrl: mui,
+    imageUrl: "icons/mui.svg",
     name: "Material-UI",
     type: "Frontend",
   },
   {
-    imageUrl: sass,
+    imageUrl: "icons/sass.svg",
     name: "Sass",
     type: "Frontend",
   },
   {
-    imageUrl: wordpress,
+    imageUrl: "icons/wordpress.png",
     name: "WordPress",
     type: "CMS",
   },
   {
-    imageUrl: shopify,
+    imageUrl: "icons/shopify.svg",
     name: "Shopify",
     type: "CMS",
   },
@@ -132,7 +95,7 @@ export const experiences = [
   {
     title: "E-commerce Frontend Developer",
     company_name: "Lumen Tactical",
-    icon: nitecore,
+    icon: "/images/nitecore.png",
     iconBg: "#accbe1",
     date: "Oct 2023 - current",
     points: [
@@ -142,7 +105,7 @@ export const experiences = [
   {
     title: "Frontend Developer",
     company_name: "AssetMark",
-    icon: assetMark,
+    icon: "/images/assetmark.png",
     iconBg: "#fbc3bc",
     date: "May 2022 - Oct 2023",
     points: [
@@ -153,7 +116,7 @@ export const experiences = [
   {
     title: "Frontend Developer Intern",
     company_name: "Growth Acceleration Partners",
-    icon: growthAccelerationPartners,
+    icon: "/images/growth-acceleration-partners.jpg",
     iconBg: "#b7e4c7",
     date: "Aug 2021 - May 2022",
     points: [
@@ -175,18 +138,18 @@ export const educations = [
 export const socialLinks = [
   {
     name: "Contact",
-    iconUrl: contact,
+    iconUrl: "/icons/contact.svg",
     email: "julie.yue@gmail.com",
     phone: "512-412-1653",
   },
   {
     name: "GitHub",
-    iconUrl: github,
+    iconUrl: "/icons/github.svg",
     link: "https://github.com/jw-yue",
   },
   {
     name: "LinkedIn",
-    iconUrl: linkedin,
+    iconUrl: "/linkedin.svg",
     link: "https://www.linkedin.com/in/j-yue/",
   },
 ];
@@ -194,9 +157,9 @@ export const socialLinks = [
 export const professionalProjects = [
   {
     client: "Nitecore Store (Lumen Tactical)",
-    logos: [nitecore, longhornTactical],
+    logos: ["/images/nitecore.png", "/images/longhorn_tactical.png"],
     projectName: "Storefront Development",
-    image: LTShopify,
+    image: "/images/lt-shopify.png",
     description:
       "As the primary developer for a Shopify storefront project, I crafted a shopping experience by migrating product data from a previous CMS, customizing look and feel of the website, and designing storefront features from Figma mockups. I collaborated closely with stakeholders, providing regular updates and overseeing the project's technical aspects.",
     technologies: ["Shopify", "Liquid", "HTML", "CSS", "JavaScript", "Figma"],
@@ -209,7 +172,7 @@ export const personalProjects = [
     name: "BlackJack - Local Multiplayer Game",
     description:
       "Need an activity to do with your friends in person? Play a few quick games of blackjack! This app supports up to 7 players.",
-    image: blackjack,
+    image: "/images/blackjack.png",
     technologies: ["React", "TypeScript", "HTML", "Bootstrap"],
     github: "https://github.com/jw-yue/blackjack",
     liveSite: "https://blackjack.julzcreations.dev/",
@@ -218,7 +181,7 @@ export const personalProjects = [
     name: "Image Uploader",
     description:
       "Users can upload images from their local device or a URL, showcase the image within the app, or download the image.",
-    image: imageUploader,
+    image: "/images/image-uploader.png",
     technologies: ["React", "TypeScript", "Express", "Node", "REST APIs"],
     github: "https://github.com/jw-yue/image_uploader",
     liveSite: "https://image-uploader.julzcreations.dev/",
@@ -227,7 +190,7 @@ export const personalProjects = [
     name: "Color Generator",
     description:
       "This app produces a spectrum of colors based on a provided specific color.",
-    image: colorGenerator,
+    image: "/images/color-generator.png",
     technologies: ["React", "JavaScript", "HTML", "CSS"],
     github: "https://github.com/jw-yue/task-tracker",
     liveSite: "https://jw-yue.github.io/color-generator/",
@@ -236,7 +199,7 @@ export const personalProjects = [
     name: "Weather Application",
     description:
       "Cute app that enables users to retrieve weather information for a specific city.",
-    image: weatherApp,
+    image: "/images/weather-app.png",
     technologies: ["React", "JavaScript", "REST APIs", "HTML", "CSS"],
     github: "https://github.com/jw-yue/weather-app",
     liveSite: "https://jw-yue.github.io/weather-app/",
@@ -245,7 +208,7 @@ export const personalProjects = [
     name: "Personal Portfolio v1",
     description:
       "My first personal portfolio that highlights my past projects.",
-    image: personalPortfolioV1,
+    image: "/images/personal-portfolio-v1.png",
     technologies: ["React", "JavaScript", "HTML", "CSS"],
     github: "https://github.com/jw-yue/julie-yue-portfolio-v1",
     liveSite: "https://jw-yue.github.io/julie-yue-portfolio-v1/",
@@ -254,7 +217,7 @@ export const personalProjects = [
     name: "Dog App",
     description:
       "Created an application that enables users to efficiently search, add, edit, and delete dog records.",
-    image: dogApp,
+    image: "/images/dog-app.png",
     technologies: ["React", "JavaScript", "HTML", "CSS"],
     github: "https://github.com/jw-yue/dog-app",
     liveSite: "https://jw-yue.github.io/dog-app/",

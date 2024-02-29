@@ -1,5 +1,5 @@
 import { personalProjects, professionalProjects } from "@/constants/index.ts";
-import { githubInverted } from "@/assets/icons/index.ts";
+import githubInverted from "/icons/github-inverted.svg";
 // import { ArrowRight } from "lucide-react";
 
 const Projects = () => {
