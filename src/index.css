@@ -52,6 +52,17 @@ html {
   }
 }
 
+.app-load-enter {
+  opacity: 0;
+  transform: translateY(-50px);
+}
+
+.app-load-enter-active {
+  opacity: 1;
+  transform: translateY(0);
+  transition: opacity 0ms, transform 900ms;
+}
+
 .item-enter {
   opacity: 0;
   transform: translateY(-50px);
