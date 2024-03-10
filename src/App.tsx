@@ -16,7 +16,7 @@ function App() {
 
   return (
     <main className="w-full min-h-screen flex flex-col bg-gradient-to-r from-slate-600 to-slate-800 text-white z-auto">
-      <CSSTransition in={inProp} timeout={600} classNames="item" unmountOnExit>
+      <CSSTransition in={inProp} timeout={1000} classNames="item">
         <div>
           <Navbar />
           <About />
