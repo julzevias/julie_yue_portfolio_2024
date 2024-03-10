@@ -13,7 +13,7 @@ const About = () => {
       <div>
         <img
           src={profilePic}
-          className="flex items-center object-contain w-full h-full max-w-96 lg:max-w-full rounded-b-lg rounded-tl-lg"
+          className="flex items-center object-contain w-full h-full max-w-96 lg:max-w-full rounded-b-lg rounded-tl-lg transform transition-transform duration-500 hover:scale-105"
         />
       </div>
       <div className="flex flex-col lg:pt-20 gap-7">

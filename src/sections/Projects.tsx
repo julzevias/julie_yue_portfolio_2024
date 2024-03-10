@@ -1,8 +1,24 @@
+import { useState } from "react";
 import { personalProjects, professionalProjects } from "@/constants/index.ts";
 import githubInverted from "/icons/github-inverted.svg";
-// import { ArrowRight } from "lucide-react";
+import { ArrowDown, ArrowUp } from "lucide-react";
+import { TransitionGroup, CSSTransition } from "react-transition-group";
 
 const Projects = () => {
+  const [showAllProjects, setShowAllProjects] = useState(false);
+  const [numProjects, setNumProjects] = useState(3);
+
+  const viewProjects = () => {
+    if (showAllProjects === false && personalProjects.length > 3) {
+      setNumProjects(3 + personalProjects.length);
+      setShowAllProjects(true);
+      return;
+    } else if (showAllProjects === true) {
+      setNumProjects(3);
+      setShowAllProjects(false);
+    }
+  };
+
   return (
     <section
       id="projects"
@@ -63,67 +79,85 @@ const Projects = () => {
             {/* <h3>Click on an image to see the live site!</h3> */}
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 lg:gap-16 xl:grid-cols-3 auto-cols-auto grid-flow-row">
-            {personalProjects.slice(0, 3).map((project) => (
-              <div
-                key={project.name}
-                className="teardrop-border flex flex-col space-y-4 border border-slate-500 shadow p-3 lg:p-4"
-              >
-                <h3 className="font-semibold text-xl text-center">
-                  {project.name}
-                </h3>
+          <TransitionGroup className="grid grid-cols-1 md:grid-cols-2 gap-8 lg:gap-16 xl:grid-cols-3 auto-cols-auto grid-flow-row">
+            {personalProjects.slice(0, numProjects).map((project) => (
+              <CSSTransition key={project.name} timeout={500} classNames="item">
+                <div
+                  key={project.name}
+                  className="teardrop-border flex flex-col space-y-4 border border-slate-500 shadow p-3 lg:p-4"
+                >
+                  <h3 className="font-semibold text-xl text-center">
+                    {project.name}
+                  </h3>
 
-                <div className="flex justify-center">
-                  <a
-                    href={project.liveSite}
-                    title="View live site!"
-                    className="duration-10 transform transition-all"
-                    target="_blank"
-                  >
-                    <img
-                      src={project.image}
-                      alt={project.name}
-                      className="h-64 w-64 object-cover rounded-lg shadow-lg hover:shadow-2xl transition-all duration-500 transform hover:scale-105"
-                    ></img>
-                  </a>
-                </div>
-
-                <div className="flex flex-col justify-between h-full gap-4">
-                  <p>{project.description}</p>
-
-                  <div className="flex flex-col gap-4">
-                    <div className="flex flex-wrap">
-                      {project.technologies.map((technology) => (
-                        <div key={technology} className="technology-bg">
-                          <h6 className="p-0.5">{technology}</h6>
-                        </div>
-                      ))}
-                    </div>
-
+                  <div className="flex justify-center">
                     <a
-                      href={project.github}
-                      className="flex gap-2"
+                      href={project.liveSite}
+                      title="View live site!"
+                      className="duration-10 transform transition-all"
                       target="_blank"
                     >
                       <img
-                        src={githubInverted}
-                        className="h-5 w-5 filter"
+                        src={project.image}
+                        alt={project.name}
+                        className="h-64 w-64 object-cover rounded-lg shadow-lg hover:shadow-2xl transition-all duration-500 transform hover:scale-105"
                       ></img>
-                      <p className="text-sm text-with-hover">View Code</p>
                     </a>
                   </div>
+
+                  <div className="flex flex-col justify-between h-full gap-4">
+                    <p>{project.description}</p>
+
+                    <div className="flex flex-col gap-4">
+                      <div className="flex flex-wrap">
+                        {project.technologies.map((technology) => (
+                          <div key={technology} className="technology-bg">
+                            <h6 className="p-0.5">{technology}</h6>
+                          </div>
+                        ))}
+                      </div>
+
+                      <a
+                        href={project.github}
+                        className="flex gap-2"
+                        target="_blank"
+                      >
+                        <img
+                          src={githubInverted}
+                          className="h-5 w-5 filter"
+                        ></img>
+                        <p className="text-sm text-with-hover">View Code</p>
+                      </a>
+                    </div>
+                  </div>
                 </div>
-              </div>
+              </CSSTransition>
             ))}
-          </div>
+          </TransitionGroup>
         </div>
       </div>
-      {/* {personalProjects.length > 3 && (
-        <button className="flex justify-end text-lg gap-2">
-          View More Projects
-          <ArrowRight />
+      {personalProjects.length > 3 && (
+        <button
+          className="flex justify-end text-lg gap-2"
+          onClick={viewProjects}
+        >
+          {showAllProjects ? (
+            <>
+              Show Less
+              <span>
+                <ArrowUp />
+              </span>
+            </>
+          ) : (
+            <>
+              Show More
+              <span>
+                <ArrowDown />
+              </span>
+            </>
+          )}
         </button>
-      )} */}
+      )}
     </section>
   );
 };
