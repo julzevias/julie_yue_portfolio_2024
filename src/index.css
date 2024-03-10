@@ -60,7 +60,7 @@ html {
 .item-enter-active {
   opacity: 1;
   transform: translateY(0);
-  transition: opacity 900ms, transform 900ms;
+  transition: opacity 0ms, transform 900ms;
 }
 
 .item-exit {
