@@ -54,7 +54,7 @@ html {
 
 .app-load-enter {
   opacity: 0;
-  transform: translateY(-50px);
+  transform: translateY(-15px);
 }
 
 .app-load-enter-active {
