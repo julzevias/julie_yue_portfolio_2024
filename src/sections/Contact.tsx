@@ -12,6 +12,7 @@ interface Form {
 }
 
 const Contact = () => {
+  console.log("Hello World");
   const [form, setForm] = useState<Form>({
     name: "",
     email: "",
