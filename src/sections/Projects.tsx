@@ -16,7 +16,7 @@ const Projects = () => {
     } else if (showAllProjects === true) {
       setNumProjects(3);
       setShowAllProjects(false);
-    }
+    } //Hello World
   };
 
   return (
